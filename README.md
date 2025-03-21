@@ -99,6 +99,33 @@ WEATHER_API_KEY=your_openweathermap_api_key
 npm run dev
 ```
 
+### IF YOU FACE ANY PROBLEM To RUN THE PROJECT apply the following command
+
+# Project Setup & Troubleshooting Guide
+
+## 1. Delete `node_modules` and `package-lock.json`
+Run the following commands in both the **Server** and **Client** directories:
+
+```powershell
+Remove-Item -Recurse -Force node_modules
+Remove-Item -Force package-lock.json
+```
+If you encounter a permission error, try running PowerShell as Administrator.
+
+## 2. Reinstall Dependencies
+After deleting the files, reinstall the dependencies:
+
+```powershell
+npm install
+```
+
+## 3. Restart the App
+Run the application:
+
+```powershell
+npm run dev
+```
+
 The app will be accessible at `http://localhost:5173/`.  
 
 ### How It Works
