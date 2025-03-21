@@ -1,0 +1,12 @@
+
+.bg-sunny {
+    background: url('https://source.unsplash.com/1600x900/?sunny') no-repeat center center/cover;
+}
+
+.bg-cloudy {
+    background: url('https://source.unsplash.com/1600x900/?cloudy') no-repeat center center/cover;
+}
+
+.bg-rainy {
+    background: url('https://source.unsplash.com/1600x900/?rainy') no-repeat center center/cover;
+}
